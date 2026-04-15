@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: #e7eced;
+  color: #333;
+}
+
+.navbar {
+  padding: 13px 40px;
+  background: #f5f3f3fa;
+  border-bottom: 2px solid #6a9ba3;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile {
+  display: inline-block;
+}
+
+.profile img {
+  width: 42px;
+  vertical-align: middle;
+}
+
+.profile span {
+  font-size: 24px;
+  font-weight: 700;
+  color: #7dacb5;
+  margin-left: 8px;
+}
+
+.nav-links {
+  position: right;
+}
+
+.nav-links li {
+  display: inline;
+  margin-left: 20px;
+  font-size: larger;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #7dacb5;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  color: #6a9ba3;
+}
+
+.hi {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.title {
+  font-size: 48px;
+  color: #7dacb5;
+  margin-bottom: 15px;
+}
+
+#img {
+  width: 300px;
+  margin: 20px 0;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #666;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  width: 160px;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.signup-btn {
+  background: #7dacb5;
+  color: white;
+}
+
+.signin-btn {
+  background: white;
+  color: #7dacb5;
+  border: 2px solid #7dacb5;
+}

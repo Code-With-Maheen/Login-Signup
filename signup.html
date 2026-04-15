@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account</title>
+  <link rel="stylesheet" href="signup.css">
+  
+</head>
+<body>
+
+<div class="container">
+  <div class="box">
+
+    <div class="header">
+      <h1>Create Account</h1>
+      <p class="subtitle">Join us to start your health journey</p>
+    </div>
+
+    <form class="form" onsubmit="checkvalidation()">
+
+      <div class="input-group">
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your full name" required>
+      </div>
+
+      <div class="input-group">
+        <label>Email</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="input-group">
+        <label>Phone Number</label>
+        <div class="phone">
+          
+          <input type="text" placeholder="Enter phone number"required>
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label>Password</label>
+        <div  class="password">
+          <input id="pass" type="password" placeholder="Enter your password"required>
+         
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label>Confirm Password</label>
+        <div class="password">
+          <input type="password" placeholder="Confirm your password"required>
+        
+        </div>
+      </div>
+
+      <button class="signup-btn">Sign Up</button>
+
+    </form>
+
+    <div class="or">
+      <div class="line"></div>
+      <span>OR</span>
+      <div class="line"></div>
+    </div>
+
+    <div class="signin">
+      <p>Already have an account?</p>
+      <a href="signin.html">Sign In</a>
+    </div>
+
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
