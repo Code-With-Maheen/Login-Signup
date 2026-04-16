@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: #e7eced;
+  color: #333;
+}
+
+.navbar-custom {
+  padding: 13px 40px;
+  background: #f5f3f3fa;
+  border-bottom: 2px solid #6a9ba3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile img {
+  width: 42px;
+  vertical-align: middle;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-left: 20px;
+  font-size: larger;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #7dacb5;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  color: #6a9ba3;
+}
+
+.hi {
+  text-align: center;
+  padding: 40px 20px;
+  min-height: calc(100vh - 130px);
+}
+
+.title {
+  font-size: 48px;
+  color: #7dacb5;
+  margin-bottom: 15px;
+}
+
+#img {
+  width: 300px;
+  margin: 20px 0;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #666;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.my-btn {
+  display: inline-block;
+  width: 160px;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.signup-btn {
+  background: #7dacb5;
+  color: white;
+}
+
+.signin-btn {
+  background: white;
+  color: #7dacb5;
+  border: 2px solid #7dacb5;
+}
+
+.footer-custom {
+  background: #f5f3f3fa;
+  border-top: 2px solid #6a9ba3;
+  text-align: center;
+  padding: 15px 10px;
+  color: #666;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .navbar-custom {
+    padding: 12px 20px;
+  }
+
+  .nav-links li {
+    margin-left: 12px;
+    font-size: 18px;
+  }
+
+  .title {
+    font-size: 38px;
+  }
+
+  #img {
+    width: 240px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .my-btn {
+    width: 140px;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .footer-custom {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-custom {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-links li {
+    display: inline-block;
+    margin: 0 8px;
+    font-size: 17px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  #img {
+    width: 200px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .my-btn {
+    width: 180px;
+  }
+}
